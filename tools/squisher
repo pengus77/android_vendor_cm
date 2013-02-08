@@ -17,7 +17,7 @@ else
    OUT_TARGET_HOST=darwin-x86
    MD5=md5
    XARGS="xargs -n 1 -P `sysctl hw.ncpu | awk '{print $2}'`"
-   SED=gsed
+   SED=sed
 fi
 
 if [ -z "$OUT" -o ! -d "$OUT" ]; then
@@ -70,7 +70,7 @@ rm -rf $REPACK/parallel
 )
 
 # Fix build.prop
-$SED -i \
+$SED -i "" \
 	-e '/ro\.kernel\.android\.checkjni/d' \
 	-e '/ro\.build\.type/s/eng/user/' \
 	$REPACK/ota/system/build.prop
