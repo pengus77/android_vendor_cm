@@ -133,14 +133,12 @@ PRODUCT_PACKAGES += \
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
-    VideoEditor \
     VoiceDialer \
     SoundRecorder \
     Basic
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
-    Trebuchet \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
