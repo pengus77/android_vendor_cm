@@ -14,12 +14,12 @@ include frameworks/base/data/sounds/AudioPackageNewWave.mk
 include vendor/cm/config/cm_audio.mk
 
 # Optional CM packages
-PRODUCT_PACKAGES += \
-    HoloSpiralWallpaper \
-    MagicSmokeWallpapers \
-    NoiseField \
-    Galaxy4 \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    VisualizationWallpapers \
-    PhaseBeam
+# PRODUCT_PACKAGES += \
+#    HoloSpiralWallpaper \
+#    MagicSmokeWallpapers \
+#    NoiseField \
+#    Galaxy4 \
+#    LiveWallpapers \
+#    LiveWallpapersPicker \
+#    VisualizationWallpapers \
+#    PhaseBeam
